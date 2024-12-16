@@ -59,6 +59,20 @@ flutter:
   # the material Icons class.
   uses-material-design: true
 
+  fonts:
+    - family: sunflower
+      fonts:
+        - asset: assets/fonts/Sunflower-Bold.ttf
+        - asset: assets/fonts/Sunflower-Light.ttf
+        - asset: assets/fonts/Sunflower-Medium.ttf
+
+    - family: parisienne
+      fonts:
+        - asset: assets/fonts/Parisienne-Regular.ttf
+
+
+
+
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg

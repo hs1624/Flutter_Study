@@ -14,7 +14,20 @@ Widget build(BuildContext context) {
           ElevatedButton(onPressed: () {
             print('Hi');
             Navigator.pushNamed(context,'/def');
-          }, child: Text('기본 Widget'))
+          }, child: Text('기본 Widget')),
+          SizedBox(height: 10,),
+          ElevatedButton(onPressed: () {
+            print('Hi');
+            Navigator.pushNamed(context,'/rowColumn');
+          }, child: Text('Row Column 사용')),
+          SizedBox(height: 10,),
+          ElevatedButton(onPressed: () {
+            Navigator.pushNamed(context, '/boxcon');
+          }, child: Text('Box 꾸미기')),SizedBox(height: 10,),
+          ElevatedButton(onPressed: () {
+            Navigator.pushNamed(context, '/con2');
+          }, child: Text('Box 꾸미기2')),
+
         ],
       )
     ),
