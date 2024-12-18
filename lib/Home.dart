@@ -27,6 +27,12 @@ Widget build(BuildContext context) {
           ElevatedButton(onPressed: () {
             Navigator.pushNamed(context, '/con2');
           }, child: Text('Box 꾸미기2')),
+          ElevatedButton(onPressed: () {
+            Navigator.pushNamed(context, '/counter');
+          }, child: Text('카운터')),
+          ElevatedButton(onPressed: () {
+            Navigator.pushNamed(context, '/p&c');
+          }, child: Text('부모와자식')),
 
         ],
       )
