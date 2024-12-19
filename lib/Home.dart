@@ -33,6 +33,10 @@ Widget build(BuildContext context) {
           ElevatedButton(onPressed: () {
             Navigator.pushNamed(context, '/p&c');
           }, child: Text('부모와자식')),
+          ElevatedButton(onPressed: () {
+            Navigator.pushNamed(context, '/form');
+          }, child: Text('문자 입력')),
+          
 
         ],
       )
